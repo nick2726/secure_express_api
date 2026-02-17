@@ -1,0 +1,25 @@
+{
+  "name": "secure-express-server",
+  "version": "1.0.0",
+  "description": "Secure Express API with Helmet, CORS, and Rate Limiting",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "Nikhil",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "node-forge": "^1.3.3",
+    "selfsigned": "^5.5.0"
+  }
+}
