@@ -264,3 +264,22 @@ If you’d like to enhance the security layer or improve architecture, feel free
 ## ⭐ If You Found This Useful
 
 Give the repository a star!
+
+
+---
+
+## 🏗 Architecture Overview
+
+Client
+↓
+HTTPS (TLS)
+↓
+Express App
+├── Helmet (CSP, Security Headers)
+├── CORS
+├── Rate Limiter
+├── Routes
+│ ├── Auth Routes
+│ ├── Protected Routes
+│ └── Admin Routes (RBAC)
+└── Global Error Handler
