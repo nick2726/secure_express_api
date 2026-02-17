@@ -1,3 +1,10 @@
+![Node.js](https://img.shields.io/badge/node-%3E%3D18-green)
+![Express](https://img.shields.io/badge/express-4.x-black)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Security](https://img.shields.io/badge/security-layered-success)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+
 # 🔐 Secure Express API
 
 A production-ready Express.js security template featuring HTTPS, JWT authentication, RBAC authorization, Helmet with custom CSP, rate limiting, and centralized error handling.
